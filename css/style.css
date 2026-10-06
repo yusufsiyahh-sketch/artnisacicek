@@ -305,12 +305,14 @@ a {
 }
 
 /* ==========================================================================
-   Floral Background Motifs (Subtle, Artistic & Translucent)
+   Floral Background Motifs (Subtle, Artistic & Translucent Mini-Flowers)
    ========================================================================== */
 .floral-bg-container {
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
   width: 100%;
   height: 100%;
   pointer-events: none;
@@ -321,84 +323,41 @@ a {
 .flower-motif {
   position: absolute;
   pointer-events: none;
-  opacity: 0.15;
+  opacity: 0.24;
   user-select: none;
 }
 
-/* Placements for About page */
-.motif-about-1 {
-  top: 60px;
-  left: 10px;
-  width: 85px;
-  transform: rotate(-15deg);
-}
+/* 16 Miniature scattered flowers for About page (dainty: 18px - 26px, reversed/inverted angles) */
+.motif-ab-1  { top: 2%;   left: 1%;   width: 24px; transform: rotate(20deg); }
+.motif-ab-2  { top: 5%;   left: 42%;  width: 20px; transform: rotate(-45deg) scaleX(-1); opacity: 0.16; }
+.motif-ab-3  { top: 8%;   right: 3%;  width: 26px; transform: rotate(135deg); }
+.motif-ab-4  { top: 16%;  left: 3%;   width: 22px; transform: rotate(-75deg); }
+.motif-ab-5  { top: 22%;  left: 36%;  width: 18px; transform: rotate(50deg); opacity: 0.15; }
+.motif-ab-6  { top: 27%;  right: 6%;  width: 25px; transform: rotate(-160deg) scaleY(-1); }
+.motif-ab-7  { top: 35%;  left: 14%;  width: 22px; transform: rotate(110deg); opacity: 0.18; }
+.motif-ab-8  { top: 41%;  left: 48%;  width: 20px; transform: rotate(-30deg) scaleX(-1); opacity: 0.16; }
+.motif-ab-9  { top: 46%;  right: 1%;  width: 26px; transform: rotate(85deg); }
+.motif-ab-10 { top: 54%;  left: 2%;   width: 24px; transform: rotate(-125deg); }
+.motif-ab-11 { top: 60%;  left: 38%;  width: 20px; transform: rotate(35deg); opacity: 0.17; }
+.motif-ab-12 { top: 66%;  right: 5%;  width: 25px; transform: rotate(-80deg) scaleX(-1); }
+.motif-ab-13 { top: 73%;  left: 10%;  width: 24px; transform: rotate(170deg); }
+.motif-ab-14 { top: 80%;  left: 46%;  width: 21px; transform: rotate(-25deg); opacity: 0.18; }
+.motif-ab-15 { top: 86%;  right: 2%;  width: 26px; transform: rotate(105deg) scaleY(-1); }
+.motif-ab-16 { top: 93%;  left: 26%;  width: 20px; transform: rotate(-140deg); }
 
-.motif-about-2 {
-  top: 320px;
-  left: 32%;
-  width: 65px;
-  opacity: 0.11;
-  transform: rotate(22deg);
-}
-
-.motif-about-3 {
-  top: 200px;
-  right: 15px;
-  width: 90px;
-  transform: rotate(30deg);
-}
-
-.motif-about-4 {
-  top: 620px;
-  left: 8%;
-  width: 75px;
-  opacity: 0.12;
-  transform: rotate(-20deg);
-}
-
-.motif-about-5 {
-  top: 680px;
-  right: 6%;
-  width: 105px;
-  transform: rotate(-10deg);
-}
-
-/* Placements for Contact page */
-.motif-contact-1 {
-  top: 80px;
-  left: 6%;
-  width: 95px;
-  transform: rotate(-15deg);
-}
-
-.motif-contact-2 {
-  top: 90px;
-  right: 7%;
-  width: 85px;
-  transform: rotate(25deg);
-}
-
-.motif-contact-3 {
-  top: 240px;
-  left: 50%;
-  transform: translateX(-50%) rotate(5deg);
-  width: 75px;
-  opacity: 0.09;
-}
-
-.motif-contact-4 {
-  bottom: 120px;
-  left: 8%;
-  width: 110px;
-  transform: rotate(-22deg);
-}
-
-.motif-contact-5 {
-  bottom: 140px;
-  right: 8%;
-  width: 75px;
-  transform: rotate(18deg);
-}
+/* 12 Miniature scattered flowers for Contact page */
+.motif-ct-1  { top: 6%;   left: 4%;   width: 24px; transform: rotate(-25deg); }
+.motif-ct-2  { top: 10%;  right: 6%;  width: 22px; transform: rotate(120deg) scaleX(-1); }
+.motif-ct-3  { top: 22%;  left: 15%;  width: 19px; transform: rotate(45deg); opacity: 0.16; }
+.motif-ct-4  { top: 26%;  right: 18%; width: 20px; transform: rotate(-135deg); opacity: 0.16; }
+.motif-ct-5  { top: 38%;  left: 8%;   width: 25px; transform: rotate(-70deg) scaleY(-1); }
+.motif-ct-6  { top: 42%;  right: 8%;  width: 24px; transform: rotate(80deg); }
+.motif-ct-7  { top: 56%;  left: 20%;  width: 21px; transform: rotate(155deg); opacity: 0.18; }
+.motif-ct-8  { top: 60%;  right: 16%; width: 22px; transform: rotate(-40deg) scaleX(-1); opacity: 0.18; }
+.motif-ct-9  { top: 74%;  left: 6%;   width: 26px; transform: rotate(100deg); }
+.motif-ct-10 { top: 78%;  right: 5%;  width: 25px; transform: rotate(-110deg); }
+.motif-ct-11 { top: 88%;  left: 32%;  width: 20px; transform: rotate(30deg); opacity: 0.17; }
+.motif-ct-12 { top: 92%;  right: 34%; width: 22px; transform: rotate(-150deg) scaleY(-1); opacity: 0.17; }
 
 /* Selected Clients */
 .clients-section {
