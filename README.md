@@ -1,6 +1,6 @@
 # Nisa Çiçek — Kişisel Sanat Galerisi & Portfolyo Web Sitesi
 
-Bu proje, sanatçı **Nisa Çiçek** için hazırlanmış; resim, heykel, tablo ve çizim eserlerini sergileyen minimalist, zarif ve modern bir sanat portfolyosu web sitesidir. Tasarım dili, tipografisi, hover efektleri ve yapısı [essillustration.com/Work](https://essillustration.com/Work) referans alınarak özel olarak kodlanmıştır.
+Bu proje, sanatçı **Nisa Çiçek** için hazırlanmış; resim, heykel, tablo ve çizim eserlerini sergileyen minimalist, zarif ve modern bir sanat portfolyosu web sitesidir.
 
 ---
 
