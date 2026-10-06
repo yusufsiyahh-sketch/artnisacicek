@@ -21,11 +21,16 @@ nisa-cicek-portfolio/
 │
 └── assets/
     └── images/
-        ├── logo.png         # Ek 1: Nisa Çiçek Çiçekli Özel Logo
-        ├── art-cecile.jpg   # Ek 2: Portrait of Cécile Elizabeth Florence Rankin
-        ├── art-ida.jpg      # Ek 3: Little Ida
-        ├── art-innocence.jpg# Ek 4: L'Innocence
-        └── bird-contact.svg # İletişim sayfası için özel sanatçı kuşu illüstrasyonu
+        ├── logo.png          # Ek 1: Nisa Çiçek Çiçekli Özel Logo
+        ├── nisa-portrait.jpg # Sanatçı Nisa Çiçek Portre Fotoğrafı
+        ├── art-cecile.jpg    # Ek 2: Portrait of Cécile Elizabeth Florence Rankin
+        ├── art-ida.jpg       # Ek 3: Little Ida
+        ├── art-innocence.jpg # Ek 4: L'Innocence
+        ├── bird-contact.svg  # İletişim sayfası için özel sanatçı kuşu illüstrasyonu
+        ├── motif-flower-1.svg# Zarif tekli çiçek motifi (hafif silik arka plan)
+        ├── motif-flower-2.svg# Gövdeli çiçek motifi (hafif silik arka plan)
+        ├── motif-flower-3.svg# Açmış taç yaprak motifi
+        └── motif-leaf.svg    # Sanatsal yaprak dalı motifi
 ```
 
 ---
@@ -33,26 +38,27 @@ nisa-cicek-portfolio/
 ## ✨ Yapılan Özelleştirmeler ve Özellikler
 
 1. **Logo (Sol Üst):**
-   - Kullanıcının yüklediği çiçek figürlü `Nisa Çiçek` logosu sol üst köşeye yerleştirildi.
+   - Çiçek figürlü `Nisa Çiçek` logosu sol üst köşeye yerleştirildi.
 2. **Alt Bilgi (Footer):**
-   - Her sayfada tam istendiği gibi `all rights reserved C Nisa Çiçek` yazmaktadır.
+   - Her sayfada tam istendiği gibi `all rights reserved Nisa Çiçek` yazmaktadır.
 3. **Work (Galeri / Sergi Kısmı):**
    - 3 eser (Cécile Elizabeth Florence Rankin, Little Ida, L'Innocence) orijinal en-boy oranlarını koruyacak şekilde çok sütunlu bir **masonry (puzzle)** ızgarasıyla yerleştirildi.
    - Fare ile eserin üzerine gelindiğinde (hover), örnek sitedeki gibi sıcak krem tonlu (`rgba(249, 241, 227, 0.85)`) örtü belirir ve eserin adı zarif Karla fontuyla ortalanarak gösterilir.
    - Eserlere tıklandığında tam ekran **Lightbox** açılarak detaylı incelenebilir (ok tuşları ve ESC ile geçiş yapılabilir).
 4. **About (Hakkında Kısmı):**
    - Başlık: `Hello! Bonjour! Hallo! Hola! Ciao! Merhaba!`
-   - Giriş: `I'm Nisa ...` ile başlar, sonradan rahatça doldurulabilir.
-   - Sağ tarafa sanatçının fotoğrafı için şık bir yer tutucu (placeholder) eklendi.
-   - `Selected Clients` listesi korundu; `Features` ve altındaki linkler tamamen kaldırıldı.
+   - Biyografi metni: Yalova Üniversitesi ve Yalova Güzel Sanatlar Lisesi eğitim geçmişi, portre, heykel, mekansal sanat ve dijital sanat disiplinleri eksiksiz eklendi.
+   - Cümle içerisindeki `contact me here` bağlantısı sitenin karakteristik pembe tonunda (`rgb(233, 88, 171)`) vurgulandı ve tıklandığında doğrudan `mailto:art.nisacicek@gmail.com` adresine yönlendirecek şekilde bağlandı.
+   - Sağ tarafa eklenen siyah-beyaz portre fotoğrafı (`assets/images/nisa-portrait.jpg`) yerleştirildi.
+   - `Selected Clients` listesi korundu; `Features` ve altındakiler kaldırıldı.
 5. **Contact (İletişim Kısmı):**
    - Metin: *"Whether you would like to discuss a new project, license my work or just to say hi, you can get in touch by emailing me at:"*
    - E-posta: `art.nisacicek@gmail.com`
-   - Alt Kısım Kuş Figürü: Örnek sitenin birebir kopyası olmayan, Nisa Çiçek logosunun renk paletiyle (zeytin yeşili kanatlar, sıcak hardal tonları ve gagasında minik bir çiçek) uyumlu özgün bir sanat kuşu yerleştirildi.
-6. **Sağ Üst İkonlar:**
-   - Instagram, Behance, E-posta, LinkedIn, Etsy ve Pinterest ikonları eksiksiz yerleştirildi.
-7. **Hover ve Aktif Menü Rengi:**
-   - `work`, `about`, `contact` linklerine gelindiğinde ve bulunulan aktif sayfada örnek sitedeki orijinal pembe tonu (`rgb(233, 88, 171)`) uygulandı.
+   - Alt Kısım Kuş Figürü: Nisa Çiçek logosunun renk paletiyle uyumlu özgün sanatçı kuşu illüstrasyonu.
+6. **Hafif Silik Sanatsal Çiçek Motifleri (About & Contact):**
+   - Ekranın boşluklarında ve metinlerin arkasında hafif silik (opaklığı düşük, yazının okunmasını engellemeyen, tıklamayı etkilemeyen) tekli zarif çiçek ve yaprak motifleri yerleştirildi.
+7. **Sağ Üst İkonlar & Pembe Vurgu:**
+   - Sosyal medya ikonları korundu. Menü linkleri üzerine gelindiğinde ve aktif sayfada pembe tonu (`rgb(233, 88, 171)`) aktifleşmektedir.
 
 ---
 

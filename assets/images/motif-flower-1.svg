@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Organic petals with gentle soft watercolor feel -->
+  <path d="M50 22 C43 8 28 12 25 28 C22 36 26 44 32 47 C20 48 10 60 16 73 C20 82 32 84 41 78 C42 88 54 94 66 88 C76 83 78 70 72 61 C84 62 92 50 88 38 C85 28 73 26 65 33 C64 22 56 12 50 22 Z" fill="#edd69a" fill-opacity="0.85" stroke="#caa557" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Center pistil -->
+  <circle cx="50" cy="50" r="8" fill="#e0973a" fill-opacity="0.85"/>
+  <circle cx="50" cy="50" r="4.5" fill="#c47a21" fill-opacity="0.9"/>
+  <!-- Artistic subtle stamen dots -->
+  <circle cx="46" cy="45" r="1.2" fill="#8f500d"/>
+  <circle cx="54" cy="46" r="1.2" fill="#8f500d"/>
+  <circle cx="52" cy="55" r="1.2" fill="#8f500d"/>
+  <circle cx="45" cy="53" r="1.2" fill="#8f500d"/>
+</svg>

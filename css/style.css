@@ -281,44 +281,123 @@ a {
   margin-bottom: 1.3rem;
 }
 
-.about-image-wrapper {
-  position: relative;
+.about-portrait-img {
   width: 100%;
+  max-width: 440px;
+  height: auto;
+  display: block;
+  border-radius: 3px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  margin-left: auto;
 }
 
-.about-image-placeholder {
-  width: 100%;
-  aspect-ratio: 3 / 4;
-  background-color: #faf8f5;
-  border: 2px dashed #ded4c5;
-  border-radius: 4px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  text-align: center;
-  color: #8c8273;
-  transition: border-color 0.2s ease, background-color 0.2s ease;
-}
-
-.about-image-placeholder svg {
-  width: 48px;
-  height: 48px;
-  stroke: #a09584;
-  margin-bottom: 1rem;
-}
-
-.about-image-placeholder span.primary-note {
+.pink-link {
+  color: var(--color-accent-pink);
   font-weight: 700;
-  font-size: 1.05rem;
-  margin-bottom: 0.4rem;
-  color: #554e44;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+  transition: opacity 0.2s ease;
 }
 
-.about-image-placeholder span.sub-note {
-  font-size: 0.88rem;
-  color: #9d9282;
+.pink-link:hover {
+  opacity: 0.8;
+}
+
+/* ==========================================================================
+   Floral Background Motifs (Subtle, Artistic & Translucent)
+   ========================================================================== */
+.floral-bg-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.flower-motif {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0.15;
+  user-select: none;
+}
+
+/* Placements for About page */
+.motif-about-1 {
+  top: 60px;
+  left: 10px;
+  width: 85px;
+  transform: rotate(-15deg);
+}
+
+.motif-about-2 {
+  top: 320px;
+  left: 32%;
+  width: 65px;
+  opacity: 0.11;
+  transform: rotate(22deg);
+}
+
+.motif-about-3 {
+  top: 200px;
+  right: 15px;
+  width: 90px;
+  transform: rotate(30deg);
+}
+
+.motif-about-4 {
+  top: 620px;
+  left: 8%;
+  width: 75px;
+  opacity: 0.12;
+  transform: rotate(-20deg);
+}
+
+.motif-about-5 {
+  top: 680px;
+  right: 6%;
+  width: 105px;
+  transform: rotate(-10deg);
+}
+
+/* Placements for Contact page */
+.motif-contact-1 {
+  top: 80px;
+  left: 6%;
+  width: 95px;
+  transform: rotate(-15deg);
+}
+
+.motif-contact-2 {
+  top: 90px;
+  right: 7%;
+  width: 85px;
+  transform: rotate(25deg);
+}
+
+.motif-contact-3 {
+  top: 240px;
+  left: 50%;
+  transform: translateX(-50%) rotate(5deg);
+  width: 75px;
+  opacity: 0.09;
+}
+
+.motif-contact-4 {
+  bottom: 120px;
+  left: 8%;
+  width: 110px;
+  transform: rotate(-22deg);
+}
+
+.motif-contact-5 {
+  bottom: 140px;
+  right: 8%;
+  width: 75px;
+  transform: rotate(18deg);
 }
 
 /* Selected Clients */

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" fill="none">
+  <!-- Leaves -->
+  <path d="M38 105 C22 108 12 124 16 142 C32 142 46 128 44 112 Z" fill="#607153" fill-opacity="0.8" stroke="#48553e" stroke-width="1"/>
+  <path d="M60 115 C75 110 88 120 86 138 C72 142 58 132 58 118 Z" fill="#6f8362" fill-opacity="0.8" stroke="#526249" stroke-width="1"/>
+  <!-- Stem -->
+  <path d="M52 68 Q50 110 46 152" stroke="#48553e" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Petals -->
+  <path d="M50 20 C42 6 26 10 24 26 C22 36 28 44 35 46 C24 49 16 62 24 74 C30 82 42 82 50 75 C52 84 65 89 76 82 C84 76 84 63 77 55 C88 54 94 42 88 30 C83 20 71 20 63 28 C61 17 54 8 50 20 Z" fill="#eed9a1" fill-opacity="0.85" stroke="#caa557" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Center -->
+  <ellipse cx="51" cy="48" rx="8" ry="7" fill="#df9433" fill-opacity="0.85"/>
+  <ellipse cx="51" cy="48" rx="4" ry="3.5" fill="#be7218" fill-opacity="0.9"/>
+</svg>
